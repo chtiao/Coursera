@@ -75,9 +75,3 @@ node
 package-lock.json
 
 /build
-
-DROpt/input/
-DROpt/output/
-assignment_simulation/output/
-assignment_simulation/input/
-.DS_Store
