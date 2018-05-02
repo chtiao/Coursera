@@ -67,12 +67,10 @@ abstract class TweetSet {
    */
   def mostRetweeted: Tweet = {
     var mostTweet: Tweet = null
-    var mostCount: Int = 0
     
     def getMore(t: Tweet): Unit = {
-      if (t.retweets > mostCount) {
+      if (mostTweet == null || t.retweets > mostTweet.retweets) {
         mostTweet = t
-        mostCount = t.retweets
       }
     }
     

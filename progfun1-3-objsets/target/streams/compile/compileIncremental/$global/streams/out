@@ -17,28 +17,16 @@
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/jason.tiao/Workspace/Functional-Programming-Principles-in-Scala/progfun1-3-objsets/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.11.12[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.11.12[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 62c237a5, interfacing (CompilerInterface) with Scala compiler version 2.11.12[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 295d178b, interfacing (CompilerInterface) with Scala compiler version 2.11.12[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-deprecation[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes:/Users/jason.tiao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/jason.tiao/Workspace/Functional-Programming-Principles-in-Scala/progfun1-3-objsets/target/scala-2.11/classes:/Users/jason.tiao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar:/Users/jason.tiao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar:/Users/jason.tiao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar:/Users/jason.tiao/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
-[0m[[31merror[0m] [0m/Users/jason.tiao/Workspace/Functional-Programming-Principles-in-Scala/progfun1-3-objsets/src/main/scala/objsets/TweetSet.scala:69: type mismatch;[0m
-[0m[[31merror[0m] [0m found   : objsets.Empty[0m
-[0m[[31merror[0m] [0m required: objsets.Tweet[0m
-[0m[[31merror[0m] [0m    def mostTweet: Tweet = new Empty[0m
-[0m[[31merror[0m] [0m                           ^[0m
-[0m[[31merror[0m] [0m/Users/jason.tiao/Workspace/Functional-Programming-Principles-in-Scala/progfun1-3-objsets/src/main/scala/objsets/TweetSet.scala:74: reassignment to val[0m
+[0m[[31merror[0m] [0m/Users/jason.tiao/Workspace/Functional-Programming-Principles-in-Scala/progfun1-3-objsets/src/main/scala/objsets/TweetSet.scala:73: reassignment to val[0m
 [0m[[31merror[0m] [0m        mostTweet = t[0m
 [0m[[31merror[0m] [0m                  ^[0m
-[0m[[31merror[0m] [0m/Users/jason.tiao/Workspace/Functional-Programming-Principles-in-Scala/progfun1-3-objsets/src/main/scala/objsets/TweetSet.scala:75: reassignment to val[0m
-[0m[[31merror[0m] [0m        mostCount = t.retweets[0m
-[0m[[31merror[0m] [0m                  ^[0m
-[0m[[33mwarn[0m] [0m/Users/jason.tiao/Workspace/Functional-Programming-Principles-in-Scala/progfun1-3-objsets/src/main/scala/objsets/TweetSet.scala:94: fruitless type test: a value of type objsets.Tweet cannot also be a objsets.Empty[0m
-[0m[[33mwarn[0m] [0m    if (mostRetweeted.isInstanceOf[Empty]) {[0m
-[0m[[33mwarn[0m] [0m                                  ^[0m
-[0m[[33mwarn[0m] [0mone warning found[0m
-[0m[[31merror[0m] [0mthree errors found[0m
+[0m[[31merror[0m] [0mone error found[0m
 [0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
 [0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
