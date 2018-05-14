@@ -1,4 +1,4 @@
-name := course.value + "-" + assignment.value
+name := course.value + "-3-" + assignment.value
 
 scalaVersion := "2.11.12"
 

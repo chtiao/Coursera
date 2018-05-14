@@ -1,4 +1,4 @@
-name := course.value + "-" + assignment.value
+name := course.value + "-4-" + assignment.value
 
 scalaVersion := "2.11.12"
 
@@ -7,7 +7,7 @@ scalacOptions ++= Seq("-deprecation")
 // grading libraries
 libraryDependencies += "junit" % "junit" % "4.10" % Test
 
-// for funsets
+// for sunsets
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4"
 
 // include the common dir
