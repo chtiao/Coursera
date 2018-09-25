@@ -3,6 +3,17 @@ venv
 *.pyc
 *.DS_Store
 
+# sbt specific
+.cache
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
 .git
 venv
 *.pyc
@@ -75,3 +86,12 @@ node
 package-lock.json
 
 /build
+/bin/
+input/
+output/
+*.lp
+*.log
+*.xpr
+.DS_Store
+.scalastyle
+.classpath
