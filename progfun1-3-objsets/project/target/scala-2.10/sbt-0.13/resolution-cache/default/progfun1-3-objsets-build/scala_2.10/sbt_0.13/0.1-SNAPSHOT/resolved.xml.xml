@@ -4,7 +4,7 @@
 		module="progfun1-3-objsets-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180928222548"
+		publication="20180930180704"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

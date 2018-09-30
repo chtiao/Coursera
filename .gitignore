@@ -5,14 +5,17 @@ venv
 
 # sbt specific
 .cache
+.cashe-*
+**/.classpath
 .history/
 .lib/
 dist/*
-target/
+**/target/
 lib_managed/
 src_managed/
-project/boot/
-project/plugins/project/
+**/project/boot/
+**/project/plugins/project/
+**/project/target/
 
 .git
 venv

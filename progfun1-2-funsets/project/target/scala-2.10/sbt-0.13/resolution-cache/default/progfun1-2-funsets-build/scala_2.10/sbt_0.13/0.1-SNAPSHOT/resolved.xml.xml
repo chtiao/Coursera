@@ -4,7 +4,7 @@
 		module="progfun1-2-funsets-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180928222454"
+		publication="20180930180627"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
