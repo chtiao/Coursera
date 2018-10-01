@@ -5,7 +5,7 @@ venv
 
 # sbt specific
 .cache
-**/.cashe-*
+**/.cache-*
 **/.classpath
 .history/
 .lib/
