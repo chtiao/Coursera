@@ -4,7 +4,7 @@
 		module="progfun1-4-patmat-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180930180751"
+		publication="20181007150657"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

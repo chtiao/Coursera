@@ -14,9 +14,21 @@ target/
 **/target/
 lib_managed/
 src_managed/
-project/
+*/project/
+**/project/
 **/project/boot/
 **/project/plugins/project/
+**/project/target/
+**/output_dsp
+**/out
+**/output
+**/copy-resources
+**/.history
+output_dsp
+out
+output
+copy-resources
+.history
 
 .git
 venv

@@ -7,7 +7,7 @@ scalacOptions ++= Seq("-deprecation")
 // grading libraries
 libraryDependencies += "junit" % "junit" % "4.10" % Test
 
-// for sunsets
+// for funsets
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4"
 
 // include the common dir
