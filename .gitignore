@@ -18,6 +18,8 @@ src_managed/
 **/project/
 **/project/boot/
 **/project/plugins/project/
+project/target/
+*/project/target/
 **/project/target/
 **/output_dsp
 **/out
@@ -29,6 +31,9 @@ out
 output
 copy-resources
 .history
+/target/
+*/target/
+**/target/
 
 .git
 venv
