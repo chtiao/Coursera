@@ -1,12 +1,48 @@
+*.class
+*.log
+dynamodb_local/
+.s3credentials
+.project
 .git
 venv
-*.pyc
-*.DS_Store
 
 # sbt specific
 .cache
-**/.cache-*
-**/.classpath
+.cache-*
+.classpath
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+/bin/
+.idea/
+deep-red.iml
+.project
+.scalastyle
+.classpath
+.settings
+*.xpr
+*.iml
+
+# Gradle
+/.gradle/
+/build/
+
+# Evaluation framework local cache
+evaluation/*
+
+ sbt specific
+.cache
+**/
+**/.
 .history/
 .lib/
 dist/*
