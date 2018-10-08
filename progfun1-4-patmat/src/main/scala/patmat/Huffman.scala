@@ -77,7 +77,8 @@ object Huffman {
    */
   def times(chars: List[Char]): List[(Char, Int)] = chars match {
     case Nil => Nil
-    case char :: Nil => (char, 1) :: Nil
+    case head :: Nil => (head, 1) :: Nil
+    case head :: tail => if (head < times(tail).head._1) (head, 1) :: times(tail) else if (head == times(tail).head._1) (head, times(tail).head._2 + 1) :: times(tail).tail else 
   }
   
   /**
